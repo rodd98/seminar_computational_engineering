@@ -6,13 +6,6 @@ import time
 import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
-from gensim.parsing.preprocessing import strip_tags
-
-
-nltk.download("wordnet")
-nltk.download("punkt")
-nltk.download('averaged_perceptron_tagger')
-
 
 # Headers for the BeautifulSoup 
 headers = {'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9'}
